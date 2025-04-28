@@ -6,5 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    if 'x' in s:
+      return s.index('x')
+    return 'x is not found in s'
+a=str(input())
+print(main(a))
