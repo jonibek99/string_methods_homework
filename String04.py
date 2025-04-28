@@ -7,4 +7,6 @@ def main(s):
         bool: answer
     """
     
-    return
+    return str(s).islower()
+a=str(input())
+print(main(a))
